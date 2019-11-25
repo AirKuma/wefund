@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="noteApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Testing</title>
+	
+</head>
+<body ng-controller="notesCtrl as ctrl">
+<input type="text" ng-model="name">
+<span ng-bind="ctrl.helloMsg"></span>
+{{ ctrl.helloMsg }}
+<script src="lib/angular.min.js"></script>
+<script>
+	angular.module('noteApp', [])
+		.controller('notesCtrl', [function(){
+			this.helloMsg = 'Hello';
+			console.log('Created');
+		}]);
+</script>
+</body>
+</html>
