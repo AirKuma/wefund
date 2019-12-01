@@ -1,4 +1,5 @@
 ## Wefund
+	使用者可以透過此平台新增想要募資的項目，讓中意的人幫忙募資，除了可以透過金錢贊助以外，也可以透過Facebook按讚與分享為該項目籌募資金。
 
 成果影片: https://www.youtube.com/watch?v=M2cZ4RV2pDk
 
